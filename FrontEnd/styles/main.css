@@ -1,0 +1,92 @@
+body {
+  background-color: #cfbfbf;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-login {
+  background-color: #071c4d !important;
+  border-radius: 0;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #17bbd8 !important;
+  color: white;
+}
+
+.nav-link {
+  color: #071c4d;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+header {
+  padding: 180px 0px 165px;
+  background-image: url("../images/header2.jpg");
+  background-size: cover;
+  margin-top: -70px;
+}
+
+header h1, header p {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: white;
+}
+
+header .btn-get-started:hover {
+  background-color: #eba067;
+  color: white;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+  .btn-login {
+    width: 90px;
+    height: 72px;
+    margin-top: -20px;
+    margin-right: -12px;
+    margin-bottom: -14px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
