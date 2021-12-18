@@ -79,6 +79,22 @@ header .btn-get-started:hover {
   font-weight: lighter;
 }
 
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+  color: white;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2.p {
+  color: white;
+}
+
 /* Dekstop Version */
 @media (min-width: 992px) {
   .btn-login {
